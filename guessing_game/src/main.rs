@@ -6,7 +6,7 @@ use colored::{self, Colorize};
 fn main() {
     println!("Guess the NUmber!");
     let secret_number = rand::thread_rng().gen_range(1, 1000);
-
+    
     println!("The secret NUmber is: {}", secret_number);
     println!("Please input your guess.");
 
