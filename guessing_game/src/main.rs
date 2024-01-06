@@ -8,6 +8,10 @@ fn main() {
 }
 
 fn play_game() {
+    let condition = true;
+    let num = if condition { 13 } else { 14 };
+    println!("{}", num);
+    println!("Guess the Number!");
     let secret_number = rand::thread_rng().gen_range(1, 1000);
 
     println!("The secret NUmber is: {}", secret_number);
